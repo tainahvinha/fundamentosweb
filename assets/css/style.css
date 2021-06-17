@@ -1,0 +1,90 @@
+/*
+Estilos da página index.html
+*/
+* {
+ margin: 0;
+ 
+ padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+}
+
+.container-social {
+            display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items:center;
+    }
+
+.dadosNino{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+#nino {
+    background-color: darkolivegreen;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}
+
+#menu li {
+display:inline;
+}
+
+#menu li a {
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+
+#menu li a:hover {
+    color:darkmagenta;
+}
+
+.p-40 {
+   padding: 0 10px 0 40px;
+   
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.tm-social {
+    width: 60px;
+    height: 60px;
+    padding: 30px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+
+#mt-100{
+    margin-top: 100px;
+}
+
+
+/*
+Estilos da página contato.html
+*/
+
+.center{
+    text-align: center;
+}
